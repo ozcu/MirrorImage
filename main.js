@@ -5,15 +5,15 @@ import p5 from "p5";
 
 const sketch = p5 => {
 
-  let img 
+ // let img 
   let video
   let vScale = 16
 
-  p5.preload =() =>{
+/*   p5.preload =() =>{
 
     img = p5.loadImage('assets/test.jpg')
     
-  }
+  } */
 
   // Variables scoped within p5
   const canvasWidth = p5.windowWidth;
